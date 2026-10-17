@@ -38,17 +38,11 @@ O que o rascunho deixou em aberto vira `Dúvida:`; o mod não inventa requisito 
 Num terminal, com o Claude Code:
 
 ```bash
-claude plugin marketplace add <dono>/<repo>
+claude plugin marketplace add sbroggioadv/prompt-pro
 claude plugin install prompt-pro@prompt-pro
 ```
 
-Ou, dentro de uma sessão:
-
-```
-/plugin install prompt-pro --marketplace <dono>/<repo>
-```
-
-`<dono>/<repo>` é o repositório do GitHub que publica este mod. Depois de instalar, abra uma sessão nova (ou rode `/reload-plugins`) e teste com `/prompt-pro corrige o erro daquele arquivo`.
+Depois de instalar, abra uma sessão nova (ou rode `/reload-plugins`) e teste com `/prompt-pro corrige o erro daquele arquivo`.
 
 ## Como usar
 
