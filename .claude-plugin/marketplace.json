@@ -1,0 +1,15 @@
+{
+  "name": "prompt-pro",
+  "description": "Mod do Claude Code que melhora o rascunho do prompt antes de enviar",
+  "owner": { "name": "Luis Sbroggio" },
+  "plugins": [
+    {
+      "name": "prompt-pro",
+      "description": "Melhora o rascunho do prompt antes de enviar, com a skill do Opus 5.5 embutida (/prompt-pro e modo automático)",
+      "source": "./",
+      "version": "0.3.0",
+      "category": "productivity",
+      "tags": ["prompt", "opus", "ptbr"]
+    }
+  ]
+}

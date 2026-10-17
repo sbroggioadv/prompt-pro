@@ -1,0 +1,36 @@
+{
+  "name": "prompt-pro",
+  "version": "0.3.0",
+  "description": "Melhora o rascunho do prompt antes de enviar, com a skill do Opus 5.5 embutida: segura o Enter (modo automático), mostra original e melhorado lado a lado e deixa Aplicar, Refazer ou Manter. Nunca envia sozinho.",
+  "author": { "name": "Luis Sbroggio" },
+  "license": "MIT",
+  "keywords": ["prompt", "opus", "ptbr"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "auto": {
+      "title": "Modo automático",
+      "description": "Liga o modo automático: o Enter de um prompt não trivial fica retido e abre o painel. Também dá para alternar no painel",
+      "type": "boolean",
+      "default": false
+    },
+    "rulesDir": {
+      "title": "Pasta das regras (opcional)",
+      "description": "Substitui a skill embutida: pasta com SKILL.md e references/canonical-blocks.md. Vazio = a skill que vem no mod. ~ vira a pasta do usuário",
+      "type": "string",
+      "default": ""
+    },
+    "model": {
+      "title": "Modelo do polimento",
+      "description": "Alias (opus, sonnet, haiku) ou id completo. Vazio = o modelo da sessão. A escolha feita no painel prevalece e fica guardada",
+      "type": "string",
+      "default": ""
+    },
+    "effort": {
+      "title": "Esforço",
+      "description": "Quanto o modelo pensa ao melhorar o rascunho. A escolha feita no painel prevalece e fica guardada",
+      "type": "string",
+      "options": ["low", "medium", "high", "xhigh", "max"],
+      "default": "medium"
+    }
+  }
+}

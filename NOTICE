@@ -1,0 +1,17 @@
+prompt-pro
+Copyright (c) 2026 Luis Sbroggio, licenciado sob a MIT (arquivo LICENSE).
+
+Trecho de terceiro
+------------------
+O arquivo skill/references/canonical-blocks.md reproduz, na seção
+"send_to_user tool definition", a definição JSON de uma ferramenta que vem do
+arquivo model-migration.md da skill "claude-api" do repositório
+https://github.com/anthropics/skills (commit 53048666).
+
+Esse conteúdo é licenciado sob a Apache License 2.0, Copyright 2026
+Anthropic, PBC. O texto completo da licença acompanha este pacote em LICENSES/Apache-2.0.txt
+(cópia do LICENSE.txt da skill). Também em:
+https://github.com/anthropics/skills/blob/main/skills/claude-api/LICENSE.txt
+https://www.apache.org/licenses/LICENSE-2.0
+
+Só esse trecho segue a Apache 2.0; o resto do pacote é MIT.
